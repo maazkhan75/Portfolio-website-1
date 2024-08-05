@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--# META TAGS -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+
+	<!--# GOOGLE FONTS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    
+    <!--# FONT AWESOME KIT-->
+
+	<script src="https://kit.fontawesome.com/054d6d8133.js" crossorigin="anonymous"></script>
+	<!--# CSS FILE -->
+	<link rel="stylesheet" href="style.css">
+
+	<title>personal website</title>
+	<link rel="icon" href="assets/icon.png">
+</head>
+
+
+<body>
+
+<!--# -----------------preloader----------------- -->
+<div id="preloader"></div>
+
+
+<div id="content">
+<!-- #------------------home-------------------- -->
+ <div id="header">
+   <div class="header-cont">
+	<nav>
+		<img src="assets/logo.png" class="logo"  alt="website logo" >
+		<ul id="sidemenu">
+			<!-- <li><a href="#header" onclick="scrollToSection(event, '#header')">Home</a></li> -->
+			<li><a href="#about" onclick="scrollToSection(event, '#real-about')">About</a></li>
+			<li><a href="#services" onclick="scrollToSection(event, '#services')">Services</a></li>
+			<li><a href="#portfolio" onclick="scrollToSection(event, '#portfolio')">Portfolio</a></li>
+			<li><a href="#toolkit" onclick="scrollToSection(event, '#toolkit')">TechStack</a></li>
+			<li><a href="#contact" onclick="scrollToSection(event, '#contact')">Contact</a></li>
+			<i class="fas fa-times" style="color: #ff0000;" onclick="closemenu()"></i>
+		</ul>
+
+		<i class="fas fa-bars" style="color: #bbbbbb;" onclick="openmenu()"></i>
+	</nav>
+	<div class="header-text">
+		<p><span class="cursor-hide">Software Enginer.</span></p>
+		<h1><span class="cursor-hide">Hi, I'm <span class="name">your name</span> <br>from your country</span></h1>
+	</div>
+   </div>
+</div>
+ 
+<!-- #-------------------about----------------------- -->
+ <div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="assets/design.png" class="design-photo" alt="">
+			</div>
+
+
+			<div class="about-col-2" id="real-about">
+				<div class="about-col-2-cont">
+				<h1 class="main-heading">About Me</h1>
+				<p class="about-me-para">As a software engineer, I am very passionate about coding and making our lives better through it.</p>
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+					<p class="tab-links" onclick="opentab('experience')" >Experience</p>
+					<p class="tab-links" onclick="opentab('education')">Education</p>
+				</div>
+				<div class="tab-contents active-tab" id="skills">
+					<ul>
+						<li class="content-lists"><span class="content-sub-headings">UI / UX</span><br>Designing Web/App interfaces.</li>
+						<li class="content-lists"><span class="content-sub-headings">Web Development</span><br>Making Web applications.</li>
+						<li class="content-lists"><span class="content-sub-headings">App Development</span><br>Building Android/iOS Apps.</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="experience">
+					<ul>
+						<li class="content-lists"><span class="content-sub-headings">20xx-20xx</span><br>your-exp1</li>
+						<li class="content-lists"><span class="content-sub-headings">20xx-20xx</span><br>your-exp2</li>
+						<li class="content-lists"><span class="content-sub-headings">20xx-20xx</span><br>your-exp3</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="education">
+					<ul>
+						<li class="content-lists"><span class="content-sub-headings">20xx</span><br>your university</li>
+						<li class="content-lists"><span class="content-sub-headings">20xx</span><br>your college</li>
+						<li class="content-lists"><span class="content-sub-headings">20xx</span><br>your school</li>
+					</ul>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+</div> 
+ 
+
+
+
+<!-- #--------------------sevices-------------------- -->
+<div id="services">
+	<h1 class="main-heading">My Services</h1>	
+	<div class="container">
+		<div class="services-list">
+				<div>
+					<i class="fa-solid fa-window-maximize" style="color: #d3d3d3;"></i>
+					<h2>Web Development</h2>
+					<p>Empower your online presence with a dynamic and responsive website. I combine sleek design with cutting-edge technology to create a seamless user experience. From eye-catching layouts to efficient functionality, I craft websites that reflect your unique identity and engage your audience.</p>
+				</div>
+				<div>
+					<i class="fa-solid fa-magnifying-glass-chart" style="color: #d3d3d3;"></i>
+					<h2>Data Analysis</h2>
+					<p>Unlock valuable insights with my data analysis services. I excel in transforming raw data into meaningful patterns and trends that drive strategic decisions. Through meticulous analysis and interpretation, I provide actionable recommendations tailored to your business goals.</p>
+				</div>
+				<div>
+					<i class="fa-solid fa-laptop-code" style="color: #d3d3d3;"></i>
+					<h2>Software Design</h2>
+					<p>Unlock innovation with my software design expertise. I transform concepts into intuitive and powerful applications that cater to your specific needs. With a focus on user-centric design and seamless functionality, I create software solutions that streamline processes and enhance user experiences.</p>
+				</div>
+		</div>
+
+	</div>
+</div>
+
+<!-- #-----------------portfolio----------------- -->
+<div id="portfolio">
+	<h1 class="main-heading">My work</h1>
+<div class="container">
+
+	<div class="slider-container">
+		<button class="nav-button left-button" onclick="prevSlide()">&#10094;</button>
+	
+
+	<div class="work-list">
+	  
+		<div class="work">
+			<div class="work-content">
+			<img src="assets/1.png" alt="">
+			<div class="layer">
+				<h3>Proj-1</h3>
+				<p>some lines about project</p>
+				<a href="https://linkoftheproj"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #d3d3d3;"></i></a>
+			</div>
+			</div>
+		</div>
+
+		<div class="work">
+			<div class="work-content">
+			<img src="assets/2.png" alt="">
+			<div class="layer">
+				<h3>Proj-2</h3>
+				<p>some lines about project</p>
+				<a href="https://linkoftheproj"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #d3d3d3;"></i></a>
+			</div>
+			</div>
+		</div>
+		   	
+		
+
+	</div>
+
+	<button class="nav-button right-button" onclick="nextSlide()">&#10095;</button>
+	</div>
+
+</div>
+</div>
+
+<div id="toolkit">
+    <h1 class="main-heading">My Toolkit</h1>
+    <div class="toolkit-cont">
+
+		<!-- go to https://devicon.dev/ and find icons there -->
+
+		<div class="icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+        </div>
+		<div class="icon">
+			<img class="invert-icon-clr" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg" />
+		</div>
+		
+
+
+    </div>
+</div>
+
+
+
+<!--#-----------------contact--------------- -->
+<div id="contact">
+	<div class="container">
+		<div class ="row">
+			<div class="contact-left">
+				<h1 class="main-heading" style="padding-bottom: 20px;">Contact</h1>
+				<p><i class="fa-regular fa-envelope"></i>youremail@gmail.com</p>
+				<p><i class="fas fas fa-phone-alt"></i>0xxxxxxxxxxx</p>
+
+				
+				<div class="social-icons">
+					<a href="https://www.github.com/yourgithub/"><i class="fa-brands fa-github"></i></a>
+					<a href="https://www.linkedin.com/in/yourlinkdin/"><i class="fab fab fab fa-linkedin"></i></a>
+					<a href="https://www.facebook.com/yourfb"><i class="fab fab fa-facebook"></i></a>
+					
+				</div>
+					<a href="assets/Cv.pdf" download class="btn-download">Download CV</a>
+			</div>
+
+			<div class="contact-right">
+				<form name="submit-to-google-sheet">
+					<input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your E-mail" required>
+					<textarea name="message"   rows="6" placeholder="Your Message" required></textarea>
+
+					<div class="cont-btn-submit">
+					<button type="submit" class="btn-submit">Submit</button>
+					</div>
+				</form>
+				<div class="cont-msg">
+				<span id="msg"></span>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+<div class="copyright">
+	<p>&copy; 2024 yourname | All rights reserved.</p>
+</div>
+
+</div>
+
+
+
+
+<!--# -------------------JAVA SCRIPT------------- -->
+
+<!--///JS for toggling tabs in about section. -->
+<script>
+	var tablinks = document.getElementsByClassName("tab-links");
+	var tabcontents = document.getElementsByClassName("tab-contents");
+	function opentab(tabname){
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+		for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+	}
+</script>
+
+<!--///JS for toggling side nav bar in smaller displays. -->
+<script>
+	var sidemenu = document.getElementById("sidemenu");
+	function openmenu(){
+		sidemenu.style.right="0";
+	}
+	function closemenu(){
+		sidemenu.style.right="-200px";
+	}
+</script>
+
+
+<!--///JS for smooth scrolling -->
+<script>
+	function scrollToSection(event, sectionId) {
+		event.preventDefault();
+		document.querySelector(sectionId).scrollIntoView({
+			behavior: 'smooth'
+		});
+
+		closemenu();
+	}
+</script>
+
+
+<!--///JS for sliding grid implementation -->
+<script>
+	let currentSlide = 0;
+
+function showSlide(index) {
+  const slides = document.querySelectorAll('.work');
+  const totalSlides = slides.length;
+  if (index >= totalSlides) {
+    currentSlide = 0;
+  } else if (index < 0) {
+    currentSlide = totalSlides - 1;
+  } else {
+    currentSlide = index;
+  }
+  const offset = -currentSlide * 100;
+  document.querySelector('.work-list').style.transform = `translateX(${offset}%)`;
+}
+
+function nextSlide() {
+  showSlide(currentSlide + 1);
+}
+
+function prevSlide() {
+  showSlide(currentSlide - 1);
+}
+
+// Initialize the first slide
+showSlide(currentSlide);
+
+</script>
+
+<!--///JS for contact form . -->
+<script>
+	const scriptURL = 'YOUR-SCRIPT-URL'
+	const form = document.forms['submit-to-google-sheet']   //our contact form
+  
+	const msg=document.getElementById("msg")
+	form.addEventListener('submit', e => {
+	  e.preventDefault()
+
+	  msg.style.fontFamily="Roboto Mono";
+	  
+	  msg.style.color = "white"
+	  msg.innerHTML="Sending Message..."
+	  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+		.then(response => {
+
+			msg.style.color="#26fe00";
+			msg.innerHTML="Message Sent Successfully!"
+			setTimeout(function(){
+				msg.innerHTML=""
+			},5000)
+			form.reset()
+		})
+		.catch(error => console.error('Error!', error.message))
+	})
+  </script>
+
+
+<!--///JS for preloder hiding on load of all elements. -->
+  <script>
+	window.onload = function(){
+   document.getElementById("preloader").style.display='none';
+	document.getElementById("content").style.opacity = '1'; // Fade in content
+
+	};
+ 
+// for testing in local environment having quick loading time...
+// setTimeout(function()
+// {
+//     document.getElementById("preloader").style.display = 'none';  // hide prelaoder 
+//     document.getElementById("content").style.opacity = '1'; // Fade in content
+// }, 	5000);
+
+
+  </script>
+
+	
+</body>
+</html>
