@@ -107,13 +107,3 @@ Follow these steps to set up the Google Sheets API for the contact form on your 
 - Copy this link and use it as the 'SCRIPT URL' in your contact form's JavaScript code to enable form submissions.
 
 Your contact form is now set up and ready to receive messages, which will be saved directly to your Google Sheet!
-
-
-## 📸 Screenshots
-
-### desktop view
-![](screenShots/1.png)
-
-### mobile view
-![](screenShots/2.png)
-
