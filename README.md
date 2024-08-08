@@ -91,7 +91,7 @@ Follow these steps to set up the Google Sheets API for the contact form on your 
   }
   ```
 ### 4. Run the Script
-- Run the script for the first time by selecting the intialSetup function.
+- Run the script for the first time.
 - You will be prompted to authorize the script to access your Google account. Complete the authorization process.
 
 ### 5. Deploy as a Web App
