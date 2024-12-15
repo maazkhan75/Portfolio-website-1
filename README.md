@@ -25,7 +25,7 @@ To set up this project locally:
 
  **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/portfolio-website.git
+   git clone https://github.com/maazkhandev75/portfolio-website.git
    cd portfolio-website
 ```
 
